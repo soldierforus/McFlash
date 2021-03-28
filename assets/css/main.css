@@ -4124,6 +4124,10 @@ input, select, textarea {
 }
 
 @media (max-width:  64em) {
+	.top:before {
+		transform: rotate(-20deg);
+	}
+	
 	.top:after {
 		content: "";
 		background: #86875f;
