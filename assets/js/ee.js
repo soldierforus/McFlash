@@ -9,3 +9,7 @@ function ee(){
     counter ++;
   }
 }
+
+function tank() {
+  document.querySelector('#tank').classList.toggle('hide');
+}
